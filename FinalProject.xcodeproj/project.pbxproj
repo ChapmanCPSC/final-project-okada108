@@ -13,6 +13,10 @@
 		0E5D71611CE01A9000F1B150 /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D715F1CE01A9000F1B150 /* FinalProject.xcdatamodeld */; };
 		0E5D71631CE01A9000F1B150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5D71621CE01A9000F1B150 /* Assets.xcassets */; };
 		0E5D71661CE01A9000F1B150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5D71641CE01A9000F1B150 /* LaunchScreen.storyboard */; };
+		0E5D71761CE18C1700F1B150 /* Pin+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D71741CE18C1700F1B150 /* Pin+CoreDataProperties.swift */; };
+		0E5D71771CE18C1700F1B150 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D71751CE18C1700F1B150 /* Pin.swift */; };
+		0E5D717B1CE3181E00F1B150 /* PointSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D717A1CE3181E00F1B150 /* PointSettingViewController.swift */; };
+		0E5D717D1CE8149900F1B150 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D717C1CE8149800F1B150 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0E5D71621CE01A9000F1B150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5D71651CE01A9000F1B150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5D71671CE01A9000F1B150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5D71741CE18C1700F1B150 /* Pin+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pin+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0E5D71751CE18C1700F1B150 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		0E5D717A1CE3181E00F1B150 /* PointSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointSettingViewController.swift; sourceTree = "<group>"; };
+		0E5D717C1CE8149800F1B150 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				0E5D71581CE01A9000F1B150 /* AppDelegate.swift */,
 				0E5D715A1CE01A9000F1B150 /* ViewController.swift */,
+				0E5D717A1CE3181E00F1B150 /* PointSettingViewController.swift */,
 				0E5D715C1CE01A9000F1B150 /* Main.storyboard */,
+				0E5D717C1CE8149800F1B150 /* DescriptionViewController.swift */,
 				0E5D71621CE01A9000F1B150 /* Assets.xcassets */,
 				0E5D71641CE01A9000F1B150 /* LaunchScreen.storyboard */,
 				0E5D71671CE01A9000F1B150 /* Info.plist */,
 				0E5D715F1CE01A9000F1B150 /* FinalProject.xcdatamodeld */,
+				0E5D71741CE18C1700F1B150 /* Pin+CoreDataProperties.swift */,
+				0E5D71751CE18C1700F1B150 /* Pin.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -140,8 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5D715B1CE01A9000F1B150 /* ViewController.swift in Sources */,
+				0E5D717D1CE8149900F1B150 /* DescriptionViewController.swift in Sources */,
 				0E5D71591CE01A9000F1B150 /* AppDelegate.swift in Sources */,
+				0E5D71771CE18C1700F1B150 /* Pin.swift in Sources */,
+				0E5D71761CE18C1700F1B150 /* Pin+CoreDataProperties.swift in Sources */,
 				0E5D71611CE01A9000F1B150 /* FinalProject.xcdatamodeld in Sources */,
+				0E5D717B1CE3181E00F1B150 /* PointSettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
